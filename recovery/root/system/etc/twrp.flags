@@ -5,7 +5,7 @@
 /persist            ext4      /dev/block/platform/bootdevice/by-name/persist                        flags=display="Persist";backup=1;
 /persistent         emmc      /dev/block/platform/bootdevice/by-name/frp                            flags=display="Persistent";backup=1;
 /nvram              emmc      /dev/block/platform/bootdevice/by-name/nvram                          flags=display="Nvram";backup=1;
-/userdata           ext4      /dev/block/platform/bootdevice/by-name/userdata                       flags=display="Userdata";backup=1;
+/userdata           f2fs      /dev/block/platform/bootdevice/by-name/userdata                       flags=display="Userdata";backup=1;
 /logo	              emmc      /dev/block/platform/bootdevice/by-name/logo	flags=display="Logo";backup=1;
 /boot               emmc      /dev/block/by-name/boot                                               flags=display="boot";flashimg=1;backup=1;slotselect;
 /expdb              emmc      /dev/block/platform/bootdevice/by-name/expdb
