@@ -88,4 +88,4 @@ PRODUCT_PACKAGES += \
     update_engine \
     update_verifier \
     update_engine_sideload
-
+TW_EXCLUDE_APEX := true
