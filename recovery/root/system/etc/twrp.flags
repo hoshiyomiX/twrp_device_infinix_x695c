@@ -1,5 +1,5 @@
 # mount point       fstype    device                                                                flags
-/data               f2fs      /dev/block/platform/bootdevice/by-name/userdata                       flags=fileencryption=aes-256-xts:aes-256-cts:v2+inlinecrypt_optimized,      keydirectory=/metadata/vold/metadata_encryption
+/data               f2fs      /dev/block/platform/bootdevice/by-name/userdata                       flags=fileencryption=aes-256-xts:aes-256-cts:v2+inlinecrypt_optimized;keydirectory=/metadata/vold/metadata_encryption
 /protect_f          ext4      /dev/block/platform/bootdevice/by-name/protect1                       flags=display="Protect_f";backup=1;
 /protect_s          ext4      /dev/block/platform/bootdevice/by-name/protect2                       flags=display="Protect_s";backup=1;
 /nvdata             ext4      /dev/block/platform/bootdevice/by-name/nvdata                         flags=display="Nvdata";backup=1;
