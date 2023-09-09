@@ -1,5 +1,0 @@
-- name: Building recovery
-  run:
-        source build/envsetup.sh
-        lunch twrp_x695c-eng
-        mka bootimage
