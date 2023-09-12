@@ -143,7 +143,7 @@ PLATFORM_VERSION := 16.1.0
 ## TWRP-Specific configuration
 
 TW_THEME := portrait_hdpi
-TW_DEVICE_VERSION := for X695C [Stable v1.1]
+TW_DEVICE_VERSION := for X695C_build v1.2
 TW_EXTRA_LANGUAGES := true
 TW_INCLUDE_NTFS_3G := true
 TW_HAS_MTP := true
