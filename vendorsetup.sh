@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-FDEVICE="X6812"
+FDEVICE="x695c"
 #set -o xtrace
 
 fox_get_target_device() {
@@ -37,8 +37,8 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
     export FOX_BUILD_TYPE=Unofficial
     # export FOX_ENABLE_LAB=1
     
-    export TARGET_DEVICE_ALT="Infinix-X6812,X6812"
-      export OF_MAINTAINER="aminegames125"
+    export TARGET_DEVICE_ALT="Infinix-X695C,X695C"
+      export OF_MAINTAINER="hoshiyomi"
 
     export OF_AB_DEVICE=1
     export OF_USE_MAGISKBOOT=1
