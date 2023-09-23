@@ -156,6 +156,7 @@ TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 TARGET_USES_MKE2FS := true
 BOARD_USES_METADATA_PARTITION := true
+TW_INCLUDE_CRYPTO_FBE := true
 
 # Device config
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
