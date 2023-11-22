@@ -26,10 +26,10 @@
 /lk                            emmc      /dev/block/platform/bootdevice/by-name/lk_a                           flags=display="Bootloader";flashimg=1;backup=1;slotselect
 
 ## Dyanmic Partitions
-/product_a                     ext4      /dev/block/mapper/product_a                                           flags=display="Product";backup=1;flashimg=1;wipeingui
-/system_a                      ext4      /dev/block/mapper/system_a                                            flags=display="System";backup=1;flashimg=1;wipeingui
-/system_ext_a                  ext4      /dev/block/mapper/system_ext_a                                        flags=display="System_ext";backup=1;flashimg=1;wipeingui
-/vendor_a                      ext4      /dev/block/mapper/vendor_a                                            flags=display="Vendor";backup=1;flashimg=1;wipeingui
+/product_a                     ext4      /dev/block/mapper/product_a                                           flags=backup=1;display="Product.img";slotselect;flashimg=1
+/system_a                      ext4      /dev/block/mapper/system_a                                            flags=backup=1;display="System.img";slotselect;flashimg=1
+/system_ext_a                  ext4      /dev/block/mapper/system_ext_a                                        flags=backup=1;display="System_ext.img";slotselect;flashimg=1
+/vendor_a                      ext4      /dev/block/mapper/vendor_a                                            flags=backup=1;display="Vendor.img";slotselect;flashimg=1
 
 ## Removable storage
 /external_sd                   vfat      /dev/block/mmcblk0p1         /dev/block/mmcblk0                       flags=fsflags=utf8;display="MicroSD";storage;wipeingui;removable
